@@ -1,0 +1,25 @@
+{
+  "name": "puppet-value-crawler",
+  "version": "1.0.0",
+  "description": "puppet-value-crawler",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxoja/puppet-value-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxoja/puppet-value-crawler/issues"
+  },
+  "homepage": "https://github.com/maxoja/puppet-value-crawler#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^8.2.0",
+    "line-messaging": "^1.2.0",
+    "puppeteer": "^8.0.0"
+  }
+}
