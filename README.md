@@ -1,5 +1,6 @@
 line-web-value-noti
 
+```
 .env template
 ```
 LINE_CHANNEL_ID=<YOUR_CHANNEL_ID>
@@ -28,4 +29,9 @@ module.exports = {
         //...
     ]
 }
+```
+
+run command
+```
+node main.js exampleSettings.js
 ```
