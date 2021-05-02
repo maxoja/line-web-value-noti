@@ -1,7 +1,11 @@
-line-web-value-noti
+# line-web-value-noti
 
+### install dependencies
 ```
-.env template
+npm install
+```
+
+### .env template
 ```
 LINE_CHANNEL_ID=<YOUR_CHANNEL_ID>
 LINE_CHANNEL_SECRET=<YOUR_CHANNEL_SECRET>
@@ -9,7 +13,7 @@ LINE_CHANNEL_ACCESS_TOKEN=<YOUR_CHANNEL_ACCESS_TOKEN>
 LINE_USER_ID=<YOUR_LINE_USER_ID>
 ```
 
-settings file template
+### settings file template
 ```
 module.exports = {
     WAIT_DELAY: <DELAY_IN_MS>,
@@ -31,7 +35,7 @@ module.exports = {
 }
 ```
 
-run command
+### run command
 ```
 node main.js exampleSettings.js
 ```
