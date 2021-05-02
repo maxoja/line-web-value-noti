@@ -1,21 +1,21 @@
 {
-  "name": "puppet-value-crawler",
+  "name": "line-web-value-noti",
   "version": "1.0.0",
-  "description": "puppet-value-crawler",
+  "description": "line-web-value-noti",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxoja/puppet-value-crawler.git"
+    "url": "git+https://github.com/maxoja/line-web-value-noti.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxoja/puppet-value-crawler/issues"
+    "url": "https://github.com/maxoja/line-web-value-noti/issues"
   },
-  "homepage": "https://github.com/maxoja/puppet-value-crawler#readme",
+  "homepage": "https://github.com/maxoja/line-web-value-noti#readme",
   "dependencies": {
     "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",
