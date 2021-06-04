@@ -25,9 +25,9 @@ module.exports = {
             LABEL: <str>,
             URL: <str>,
             SELECTOR: <str>,
-            PARSER: <(str) => any>,
-            TRIGGER: <(str) => bool>,
-            FORMATTER: <(str, any) => str>
+            PARSER: <(textContent:str) => any>,
+            TRIGGER: <(value:any) => bool>,
+            FORMATTER: <(label:str, value:any) => str>
         }
 
         //...
